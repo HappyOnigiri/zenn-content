@@ -24,6 +24,8 @@ globs: ['articles/*.md', 'books/**/*.md']
 ## 構成
 
 - frontmatter（title, emoji, type, topics, published）を必ず含める
+  - topics は最大5つまで（Zenn の制約）
+  - topics はすべて小文字で書く（例: "nextjs" ではなく "Next.js" でもなく "nextjs"）
 - 見出しは h2（##）から始める（h1 は title が担う）
 - 長い記事は適度に h2 / h3 で区切る
 - コード例は実際に動くものを書く。省略する場合は明示する
