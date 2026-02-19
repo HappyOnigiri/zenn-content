@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "zenn": "zenn",
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book",
+    "preview": "zenn preview",
+    "format": "prettier --write 'articles/**/*.md' 'books/**/*.md'"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "zenn-cli": "^0.4.5"
+  }
+}
