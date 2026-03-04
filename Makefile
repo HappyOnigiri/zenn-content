@@ -6,7 +6,6 @@ ci:
 format:
 	npm run format
 
-
 preview:
 	npm run preview
 
