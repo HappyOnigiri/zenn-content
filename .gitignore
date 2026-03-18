@@ -5,6 +5,7 @@ tmp/
 
 # AI Rules
 /AGENTS.md
+/.ai/AGENTS.md
 /.cursor
 /.agent
 /.claude
