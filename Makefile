@@ -7,7 +7,7 @@ format:
 	npm run format
 
 preview:
-	npm run preview
+	npm run preview -- --port 8231
 
 repomix: repomix-all repomix-except-articles
 
